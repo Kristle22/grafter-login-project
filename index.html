@@ -14,27 +14,33 @@
     <script src="https://kit.fontawesome.com/c8b721821d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="right-column">
-        <h1 class="heading">Grafter</h1>
-        <p>Build meaningful relatiuonships between organisations and employees.</p>
-        <p>Login with social media</p>
-        <a href="#"><i class="fab fa-facebook-f"></i> Login with Facebook</a>
-        <a href="#"><i class="fab fa-twitter"></i> Login with Twitter</a>
-    </div>
-    <div class="left-column">
-        <h1 class="log-heading">Login</h1>
-        <p>Don't have an account? <a href="#"> Create your account</a>, it takes less than a minute</p>
-        <form action="">
-            <label for="email"></label>
-            <input type="text" name="email" id="email" placeholder="rob@grafter.me">
-            <i class="fas fa-envelope"></i>
-            <label for="password"></label>
-            <input type="text" name="password" id="password" placeholder="Password">
-            <i class="fas fa-key"></i>
-        </form>
-        <div class="buttons">
-            <p class="login-btn">Login</p>
-            <p class="recover-btn">Recover password</p>
+    <div class="container">
+        <div class="left-column">
+            <h1 class="heading">Grafter</h1>
+            <p class="left-text">Build meaningful relatiuonships between organisations and employees.</p>
+            <p class="small-text">Login with social media</p>
+            <a href="#" class="soc-icon fb"><i class="fab fa-facebook-f"></i> Login with Facebook</a>
+            <a href="#" class="soc-icon tw"><i class="fab fa-twitter"></i> Login with Twitter</a>
+        </div>
+        <div class="right-column">
+            <h1 class="log-heading">Login</h1>
+            <p class="right-text">Don't have an account? <a href="#"> Create your account</a>, it takes less than a minute</p>
+            <form class="login-form" action="#">
+                <div class="form-row">
+                    <label for="email"></label>
+                    <input class="email" type="text" name="email" id="email" placeholder="rob@grafter.me">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="form-row">
+                    <label for="password"></label>
+                    <input class="password" type="text" name="password" id="password" placeholder="Password">
+                    <i class="fas fa-key"></i>
+                </div>
+                <div class="buttons">
+                    <button class="btn green" type="submit">Login</button>
+                    <button class="btn" type="submit">Recover password</button>
+                </div>
+            </form>
         </div>
     </div>
 </body>
