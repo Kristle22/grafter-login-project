@@ -1,0 +1,153 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(rgba(29, 18, 34, 0.8), rgba(18, 43, 56, 0.8)), url('../img/login.png') center no-repeat;
+    background-size: cover;
+    padding: 60px;
+}
+.container {
+    width: 100%;
+    display: inline-block;
+    
+}
+.left-column {
+    width: 50%;
+    height: calc(100vh - 100px);
+    float: left;
+    padding-left: 14%;
+    padding-right: 5%;
+    padding-top: 10%;
+    color: #fff;
+    background:  linear-gradient(rgba(14, 139, 161, 0.678), rgba(7, 0, 15, 0.781)), url(../img/login.png) top right;
+    background-size: cover;
+}
+.right-column {
+    width: 50%;
+    height: calc(100vh - 100px);
+    float: right;
+    padding-left: 5%;
+    padding-right: 8%;
+    padding-top: 10%;
+    color: #777;
+    background-color: #fff;
+}
+.heading {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.left-text {
+    margin-bottom: 35px;
+}
+.small-text {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+.soc-icon  {
+   display: block;
+   width: 165px;
+   font-size: 14px;
+   padding: 10px 15px;
+   text-decoration: none;
+   background-color: #3d6caa;
+   color: #fff;
+   border-radius: 5px;
+   margin-bottom: 7px;
+}
+.soc-icon.tw {
+    background: #72c5f5;
+    /* margin-bottom: 300px; */
+}
+.soc-icon > i {
+    margin-right: 6px;
+}
+.log-heading {
+    margin-bottom: 20px;
+}
+.right-text {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.right-text > a {
+    color: #72c5f5;
+    text-decoration: none;
+    font-size: 14px;
+}
+.login-form {
+    width: 100%;
+    position: relative;
+}
+.form-row {
+    position: relative;
+    opacity: 0.4;
+}
+.email,
+.password,
+.name,
+.surname,
+.re-email {
+    display: inline-block;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 2px solid #3a6c83de;
+    border-radius: 3px;
+}
+
+.fa-envelope {
+    position: absolute;
+    top: 30%;
+    left: 93%;
+    font-size: 8px;
+}
+.fa-key {
+    position: absolute;
+    bottom: 50%;
+    left: 93%;
+    font-size: 8px;
+}
+.fa-check,
+.fa-xmark {
+    position: absolute;
+    top: 15%;
+    left: 89%;
+    font-size: 8px;
+    color: #537e12;
+    border: 2px solid #537e12;
+    border-radius: 50%;
+    padding: 5px;
+}
+.fa-xmark {
+    font-size: 10px;
+    padding: 4px 5px;
+    color: red;
+    border: 2px solid red;
+}
+.buttons {
+    display: inline-block;
+    font-size: 14px;
+}
+.btn {
+    float: left;
+    border: none;
+    background-color: #fff;
+    color: #72c5f5;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.btn.green {
+    margin: 0;
+    margin-right: 20px;
+    padding: 6px 10px;
+    font-weight: bold;
+    background-color: #7ac517de;
+    border-radius: 5px;
+    color: #fff;
+}
