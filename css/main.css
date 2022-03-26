@@ -15,7 +15,7 @@ body {
 .container {
     width: 100%;
     display: inline-block;
-
+    
 }
 .left-column {
     width: 50%;
@@ -88,14 +88,18 @@ body {
     opacity: 0.4;
 }
 .email,
-.password {
+.password,
+.name,
+.surname,
+.re-email {
     display: inline-block;
     width: 100%;
-    padding: 5px;
+    padding: 7px;
     margin-bottom: 10px;
     border: 2px solid #3a6c83de;
     border-radius: 3px;
 }
+
 .fa-envelope {
     position: absolute;
     top: 30%;
@@ -107,6 +111,23 @@ body {
     bottom: 50%;
     left: 93%;
     font-size: 8px;
+}
+.fa-check,
+.fa-xmark {
+    position: absolute;
+    top: 15%;
+    left: 89%;
+    font-size: 8px;
+    color: #537e12;
+    border: 2px solid #537e12;
+    border-radius: 50%;
+    padding: 5px;
+}
+.fa-xmark {
+    font-size: 10px;
+    padding: 4px 5px;
+    color: red;
+    border: 2px solid red;
 }
 .buttons {
     display: inline-block;
@@ -123,8 +144,9 @@ body {
 }
 .btn.green {
     margin: 0;
-    margin-right: 25px;
+    margin-right: 20px;
     padding: 6px 10px;
+    font-weight: bold;
     background-color: #7ac517de;
     border-radius: 5px;
     color: #fff;
