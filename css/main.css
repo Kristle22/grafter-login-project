@@ -60,9 +60,22 @@ body {
    border-radius: 5px;
    margin-bottom: 7px;
 }
+.fb:hover {
+    background: rgb(67,110,176);
+    background: linear-gradient(196deg, rgba(67,110,176,1) 0%, rgba(66,127,176,1) 0%, rgba(46,130,149,1) 49%, rgba(26,48,120,1) 100%, rgba(40,65,146,1) 100%, rgba(53,107,171,1) 100%, rgba(36,82,142,1) 100%, rgba(45,82,156,1) 100%, rgba(28,42,144,1) 100%, rgba(40,13,107,1) 100%, rgba(43,45,167,1) 100%, rgba(19,54,163,0.950315160243785) 100%, rgba(84,29,143,1) 100%); 
+}
 .soc-icon.tw {
     background: #72c5f5;
     /* margin-bottom: 300px; */
+}
+.tw:hover {
+    background: rgb(82,170,249);
+    background: linear-gradient(196deg, rgba(82,170,249,1) 0%, rgba(86,173,218,1) 50%, rgba(44,218,178,1) 100%);
+}
+.link:hover,
+.btn:hover {
+    color: #1171be;
+    text-decoration: underline;
 }
 .soc-icon > i {
     margin-right: 6px;
@@ -103,20 +116,20 @@ body {
 .fa-envelope {
     position: absolute;
     top: 30%;
-    left: 93%;
+    right: 3%;
     font-size: 8px;
 }
 .fa-key {
     position: absolute;
     bottom: 50%;
-    left: 93%;
+    right: 3%;
     font-size: 8px;
 }
 .fa-check,
 .fa-xmark {
     position: absolute;
     top: 15%;
-    left: 89%;
+    right: 2%;
     font-size: 8px;
     color: #537e12;
     border: 2px solid #537e12;
@@ -128,6 +141,9 @@ body {
     padding: 4px 5px;
     color: red;
     border: 2px solid red;
+}
+i > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .buttons {
     display: inline-block;
@@ -150,4 +166,8 @@ body {
     background-color: #7ac517de;
     border-radius: 5px;
     color: #fff;
+}
+.btn.green:hover {
+    background: rgb(58,179,46);
+    background: linear-gradient(196deg, rgba(58,179,46,1) 0%, rgba(185,230,74,1) 100%); 
 }
