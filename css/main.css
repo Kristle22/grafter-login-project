@@ -73,7 +73,7 @@ body {
     background: linear-gradient(196deg, rgba(82,170,249,1) 0%, rgba(86,173,218,1) 50%, rgba(44,218,178,1) 100%);
 }
 .link:hover,
-.btn:hover {
+a.btn:hover {
     color: #1171be;
     text-decoration: underline;
 }
