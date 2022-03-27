@@ -16,10 +16,10 @@ Design: [Login](https://dribbble.com/shots/1942518-Grafter-login-registration-pa
 ## Project features
 
 -   Github pages (multi-page)
--   HTML form
+-   HTML forms
 -   CSS background images
+-   CSS gradients
 -   CSS position absolute
--   CSS blur effect
 
 ## Authors
 
