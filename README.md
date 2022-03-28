@@ -17,8 +17,9 @@ Design: [Login](https://dribbble.com/shots/1942518-Grafter-login-registration-pa
 
 -   Github pages (multi-page)
 -   HTML forms
+    Sicial icons
 -   CSS background images
--   CSS gradients
+-   CSS linear-gradients
 -   CSS position absolute
 
 ## Authors
