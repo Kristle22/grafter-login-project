@@ -219,10 +219,9 @@ i > p {
     width: 60%;
   }
   .soc-icon {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     width: 100%;
     padding: 10px 5px;
-    font-size: 13px;
+    font-size: 12px;
   }
 }
