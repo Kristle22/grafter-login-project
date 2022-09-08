@@ -221,7 +221,7 @@ i > p {
   .soc-icon {
     text-align: center;
     width: 100%;
-    padding: 10px 2px;
-    font-size: 12px;
+    padding: 10px 1px;
+    font-size: 11px;
   }
 }
